@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="trumpApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trump</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/styles.min.css"></link>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  </head>
+  <body ng-controller='mainCtrl'>
+    <div class="main-wrapper">
+      <div class="background-image">
+      </div>
+
+      <div class="quote-container">
+        <ui-view></ui-view>
+      <div>
+      <div class="MAGA">
+        <a href="https://www.youtube.com/watch?v=gbhS-mIJGv8">MAGA</a>
+      </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src='js/app.js'></script>
+    <script src='js/mainCtrl.js'></script>
+    <script src='js/contactCtrl.js'></script>
+    <script src='js/aboutCtrl.js'></script>
+    <script src='js/mainService.js'></script>
+    <script src='js/headerDirective.js'></script>
+  </body>
+
+
+</html>

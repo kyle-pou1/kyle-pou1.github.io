@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+$font-stack: 'Poppins', sans-serif;
+$color: black;
+$color-two: white;
+$color-three: #5499C7;
+$color-five: blue;
+
+
+
+ .main-wrapper {
+   background-image: url('./img/trump-rally.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   position: relative;
+ }
+ .MAGA{
+   a{
+      width: 100%;
+      height: 20px;
+      text-decoration: none;
+      margin-top: 20px;
+      border-top: 2px solid black;
+      text-align: center;
+      font-size: 10px;
+      position: absolute;
+      bottom: 0px;
+      background: $color-two;
+      color: red;
+      line-height: 19px;
+
+  }
+ }
+
+ //header directive html
+ .container{
+   width: 100%;
+   height: 10vh;
+   background: $color-two;
+   border-bottom: 2px solid black;
+
+    button{
+      color: #000;
+      cursor: pointer;
+      border: 2px solid black;
+      height: 2px;
+      width: 100px;
+      margin: 13px;
+      line-height: 0px;
+      background-color: transparent;
+    }
+    .clock {
+      float: right;
+      margin: 0px auto;
+      margin-right: 22px;
+      padding: 19px;
+      color: #000;
+      font-size: 30px;
+    }
+ }
+//home page style
+ .jumbotron {
+   font-size: 80px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: $font-stack;
+    text-shadow: 3px 3px #a8a8a8;
+    color:$color-two;
+    text-align: center;
+ }
+
+
+ .new-quote {
+   width: 80%;
+   height: 60vh;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   background: transparentize($color-two, .2);
+   border-radius: 20px;
+   text-align: center;
+   position: relative;
+
+   .trump-img-container {
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     bottom: 0px;
+      img {
+       width: 16%;
+       border: 2px solid white;
+       border-radius: 50%;
+      }
+   }
+
+     button {
+       height: 30px;
+       margin-top: 20px;
+       margin-bottom: 50px;
+       line-height: 0px;
+       color: #000;
+       border: 2px solid black;
+       cursor: pointer;
+     }
+      p {
+        margin: 0px auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+      }
+ }
+
+
+
+// about page style
+ .about-body{
+   width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   background: transparentize($color-two, .2);
+ }
+
+ .about-heading {
+   width: 30%;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   margin-left: 35%;
+   font-size: 40px;
+   text-align: center;
+   border-bottom: 2px solid black;
+ }
+ p {
+   color: #000;
+   font-size: 24px;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+ .funny-trump{
+   margin-left: 20px;
+   margin-right: 10px;
+   margin-top: 8px;
+   float:left;
+    img{
+     height: 23vh;
+    }
+ }
+  button{
+    background-color: transparent;
+    border: 0;
+    color: $color-three;
+    margin: 0px;
+    padding: 19px;
+    font-size: 20px;
+  }
+
+  //contact page style
+  .media-body {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    background: transparentize($color-two, .2);
+
+      div {
+        display: inline-block;
+        margin-left: 40px;
+          }
+      }
+   .website-icon{
+     img{
+     height: 18vh;
+    }
+   }
+  .media-heading {
+     width: 30%;
+     margin-top: 20px;
+     margin-bottom: 41px;
+     margin-left: 35%;
+     font-size: 40px;
+     text-align: center;
+     border-bottom: 2px solid black;
+   }
